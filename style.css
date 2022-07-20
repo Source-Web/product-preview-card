@@ -1,0 +1,177 @@
+body, html {
+    background: hsl(30, 38%, 92%);
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 600px;
+    margin: 175px auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.hero1 {
+    height: auto;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.hero2 {
+    display: none;
+}
+.container {
+    padding: 34px;
+    background: hsl(0, 0%, 100%);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.perf {
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+
+.h2 {
+    font-size: 25px;
+    font-family: 'Fraunces', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+    margin-bottom: 34px;
+}
+
+.description {
+    margin-top: 0;
+    margin-bottom: 37px;
+    padding-top: 0;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.5;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.b2 {
+    display: none;
+}
+
+.priceinfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 34px;
+}
+
+.price {
+    font-size: 25px;
+    font-family: 'Fraunces', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+}
+
+.discount {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin-right: 35px;
+}
+
+button {
+    width: 100%;
+    padding: 15px 60px;
+    background: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background: hsl(156, 42%, 18%);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cart {
+    margin-left: 10px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+/*MOBILE*/
+@media only screen and (max-width: 375px) {
+section {
+    display: block;
+    width: 340px;
+    margin: 28px auto;
+}
+
+    .hero1 {
+    display: none;
+}
+
+.hero2 {
+    display: block;
+    width: 100%;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.container {
+    border-radius: 0 0 8px 8px;
+    padding: 24px;
+}
+
+.perf {
+    margin-top: 26px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 32px;
+}
+
+.b {
+    display: none;
+}
+
+.description {
+    margin-bottom: 54px;
+    font-size: 13px;
+}
+
+.b2 {
+    display: block;
+}
+
+.priceinfo {
+    margin-top: 0;
+    margin-top: 24px;
+}
+
+.discount {
+    margin-right: 92px;
+}
+
+button {
+    padding: 15px 64px;
+    width: 100%;
+}
+
+.centerbtn {
+    width: 100%;
+    margin: 0 auto;
+}
+
+}
