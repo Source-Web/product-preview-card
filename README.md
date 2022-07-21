@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Product Preview](https://www.frontendmentor.io/solutions/responsive-product-preview-card-using-html5-css-grid-and-flex-zKPbpLBAmx)
+- Live Site URL: [Product Preview](https://source-web.github.io/product-preview-card/)
 
 ## My process
 
@@ -66,12 +66,12 @@ In future projects, I want to be able to combine my HTML and CSS knowledge with 
 
 ### Useful resources
 
-- [Resource](https://figma.com) - This helped me to get the best judgement for font-size, margin, padding, width and border-radius. I really liked this pattern and will use it going forward.
+- [Figma.com](https://figma.com) - This helped me to get the best judgement for font-size, margin, padding, width and border-radius. I really liked this pattern and will use it going forward.
 
 ## Author
 
 - Github - [Nwali Joseph](https://github.com/Source-Web)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Source-Web)
+- Frontend Mentor - [@Source-Web](https://www.frontendmentor.io/profile/Source-Web)
 - Facebook - [@joseph.nwali.5249](https://www.facebook.com/joseph.nwali.5249)
 
 
